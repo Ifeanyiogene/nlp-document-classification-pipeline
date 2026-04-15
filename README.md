@@ -1,35 +1,45 @@
 # NLP Document Classification Pipeline
 
-This project implements a Natural Language Processing (NLP) pipeline for classifying text data using machine learning techniques.
+This project demonstrates a complete Natural Language Processing (NLP) pipeline for transforming unstructured text into structured features and applying supervised machine learning models.
 
-## Overview
-The goal of this project is to transform unstructured text into structured representations and apply classification models to extract meaningful insights.
+---
 
-## Pipeline
-- Text preprocessing and normalization
-- Feature extraction using TF-IDF
-- Model training using Naive Bayes
-- Evaluation using classification metrics
+## 🎯 Project Goal
+Build a machine learning system that classifies text data (e.g. messages, reviews, emails) into categories such as **Spam vs Not Spam** or **Positive vs Negative**.
 
-## Technologies
-- Python
-- Pandas
-- Scikit-learn
+---
 
-## Key Concepts
-- Text vectorization
-- Supervised learning
-- Model evaluation (precision, recall, F1-score)
-- Handling unstructured data
+## ⚙️ Pipeline Overview
+- Text preprocessing and normalization  
+- Feature extraction using **TF-IDF vectorization**  
+- Train/test data split  
+- Model training using **Multinomial Naive Bayes**  
+- Model evaluation using classification metrics  
 
-## Example Use Case
-Classifying messages as spam or non-spam based on learned patterns.
+---
 
-## Future Improvements
-- Use real-world datasets
-- Implement transformer-based models
-- Add semantic search with embeddings
-- Integrate document parsing (PDF/OCR)
+## 🛠 Technologies Used
+- Python 3  
+- pandas  
+- scikit-learn  
 
-## Author
-Ifeanyi Ogene
+---
+
+## 📁 Project Structure
+nlp-document-classification-pipeline/
+├── README.md
+├── main.py
+└── requirements.txt
+---
+## 🚀 How to Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/Ifeanyi-Ogene/nlp-document-classification-pipeline.git
+
+cd nlp-document-classification-pipeline
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the model
+python main.py
